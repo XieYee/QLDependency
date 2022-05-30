@@ -46,13 +46,13 @@ npm -v
 
 npm config set registry https://registry.npmjs.org/
 cd /ql
-pnpm add -g pnpm
+pnpm add ---location=global pnpm
 
-pnpm install -g
+pnpm install ---location=global
 
-npm install -g npm png-js date-fns axios crypto-js ts-md5 tslib @types/node requests tough-cookie jsdom download tunnel fs ws form-data
+npm install ---location=global npm png-js date-fns axios crypto-js ts-md5 tslib @types/node requests tough-cookie jsdom download tunnel fs ws form-data
 
-pnpm install -g js-base64 qrcode-terminal silly-datetime
+pnpm install ---location=global js-base64 qrcode-terminal silly-datetime
 
 pip3 install requests
 
